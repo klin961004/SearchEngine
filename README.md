@@ -2,7 +2,6 @@ ABOUT
 -------------------------
 This is the implementation of a full inverted index and search engine
 by 
-# Michael Yoo               55188094
 # Michelle Lin              64526538
 
 CONFIGURATION
