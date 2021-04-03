@@ -30,48 +30,49 @@ that the terminal is at the root folder of this project.
 pip install nltk
 pip install bs4
 pip install psutil
-
+```
 
 
 ### Step 2: Change directory
 
-``` modify
-
+modify
+```
     root_directory = "./DEV"
+```
 
-    in main.py to the path where the documents are located```
+    in main.py to the path where the documents are located
 
 
 ### Step 3: Check memory capacity
-``` modify
-
+modify
+```
     global variable mem_cap = 35.0
-
+```
     in invertedIndex.py to the percentage of memory remaining before off
-    loading you desired ```
+    loading you desired 
 
 ### Step 4: Indexing
-``` locate to the rootdirectory, run
-
+locate to the rootdirectory, run
+```
     python3 main.py
-
-    to start indexing the documents```
+```
+    to start indexing the documents
 
 ### Step 5: Merging
-    ``` locate to the rootdirectory, run
-
-        python3 merge.py
-
-        to start merging all the partitions of inverted indexes into one```
+locate to the rootdirectory, run
+```
+    python3 merge.py
+```
+    to start merging all the partitions of inverted indexes into one
 
 ### Step 6: query
-``` locate to the rootdirectory, run
-
+locate to the rootdirectory, run
+```
     python3 engine.py
-
+```
     a user prompt will appear, type in your query
     your result will be printed with the highest ranking from top to bottom
-    along with the title of the page and the url of the page```
+    along with the title of the page and the url of the page
 
 ARCHITECTURE
 -------------------------
